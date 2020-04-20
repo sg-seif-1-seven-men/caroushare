@@ -13,8 +13,7 @@ const db = mongoose.connection;
 
 // Environment Variables
 const mongoURI =
-	process.env.MONGODB_URI ||
-	'mongodb+srv://zacharylky:ragnarock1@cluster0-l0lis.mongodb.net/caroushare?retryWrites=true&w=majority';
+	process.env.MONGODB_URI
 
 // Connect to Mongo
 mongoose.connect(
